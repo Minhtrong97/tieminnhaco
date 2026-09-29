@@ -1,0 +1,230 @@
+```html
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mai Minh Trọng - Liên hệ</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa, #e9eef5);
+            color: #222;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 430px;
+            margin: auto;
+            padding: 35px 20px 40px;
+            text-align: center;
+        }
+
+        /* Avatar */
+        .avatar {
+            width: 105px;
+            height: 105px;
+            margin: 0 auto 15px;
+            border-radius: 50%;
+            background: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+            font-size: 48px;
+        }
+
+        h1 {
+            margin: 8px 0 5px;
+            font-size: 27px;
+            font-weight: 700;
+        }
+
+        .description {
+            margin: 0 0 25px;
+            color: #666;
+            font-size: 15px;
+        }
+
+        /* Link buttons */
+        .social-link {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            min-height: 62px;
+            margin: 14px 0;
+            padding: 12px 18px;
+
+            background: rgba(255,255,255,0.95);
+            border-radius: 17px;
+
+            text-decoration: none;
+            color: #222;
+
+            box-shadow: 0 5px 18px rgba(0,0,0,0.08);
+
+            transition: all 0.2s ease;
+        }
+
+        .social-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 22px rgba(0,0,0,0.13);
+        }
+
+        .social-link:active {
+            transform: scale(0.97);
+        }
+
+        .icon {
+            width: 38px;
+            height: 38px;
+            object-fit: contain;
+            margin-right: 16px;
+            flex-shrink: 0;
+        }
+
+        .link-text {
+            flex: 1;
+            text-align: left;
+            font-size: 17px;
+            font-weight: 600;
+        }
+
+        .arrow {
+            font-size: 20px;
+            color: #999;
+        }
+
+        /* Footer */
+        .footer {
+            margin-top: 30px;
+            font-size: 12px;
+            color: #999;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Avatar -->
+    <div class="avatar">
+        👤
+    </div>
+
+    <!-- Tên -->
+    <h1>Mai Minh Trọng</h1>
+
+    <p class="description">
+        Kết nối với tôi
+    </p>
+
+
+    <!-- FACEBOOK -->
+    <a
+        class="social-link"
+        href="https://www.facebook.com/share/1Fj5kZryfZ/"
+        target="_blank"
+        rel="noopener noreferrer"
+    >
+        <img
+            class="icon"
+            src="https://cdn.simpleicons.org/facebook/1877F2"
+            alt="Facebook"
+        >
+
+        <span class="link-text">
+            Facebook
+        </span>
+
+        <span class="arrow">
+            ›
+        </span>
+    </a>
+
+
+    <!-- TIKTOK -->
+    <a
+        class="social-link"
+        href="https://tiktok.com/@maiminhtrong410"
+        target="_blank"
+        rel="noopener noreferrer"
+    >
+        <img
+            class="icon"
+            src="https://cdn.simpleicons.org/tiktok/000000"
+            alt="TikTok"
+        >
+
+        <span class="link-text">
+            TikTok
+        </span>
+
+        <span class="arrow">
+            ›
+        </span>
+    </a>
+
+
+    <!-- ZALO -->
+    <a
+        class="social-link"
+        href="https://zalo.me/0392474883"
+        target="_blank"
+        rel="noopener noreferrer"
+    >
+        <img
+            class="icon"
+            src="https://cdn.simpleicons.org/zalo/0068FF"
+            alt="Zalo"
+        >
+
+        <span class="link-text">
+            Zalo
+        </span>
+
+        <span class="arrow">
+            ›
+        </span>
+    </a>
+
+
+    <!-- GỌI ĐIỆN -->
+    <a
+        class="social-link"
+        href="tel:0382474883"
+    >
+        <img
+            class="icon"
+            src="https://cdn.simpleicons.org/phone/22C55E"
+            alt="Điện thoại"
+        >
+
+        <span class="link-text">
+            Gọi điện: 0382474883
+        </span>
+
+        <span class="arrow">
+            ›
+        </span>
+    </a>
+
+
+    <div class="footer">
+        Chạm NFC để kết nối
+    </div>
+
+</div>
+
+</body>
+</html>
+```
